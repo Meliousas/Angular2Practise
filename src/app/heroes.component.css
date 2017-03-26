@@ -1,0 +1,66 @@
+.selected {
+    background-color: cadetblue;
+    color: darkolivegreen;
+}
+
+.heroes {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+}
+.heroes li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: lightgoldenrodyellow;
+    color: darkslategray ;
+    margin: .5em;
+    padding: .3em 0;
+    border-radius: 4px;
+    height: 1.6em;
+}
+
+.heroes li:hover{
+    color:beige;
+    background-color: darkslategrey ;
+    left: .2em;
+}
+
+.heroes li.selected:hover{
+    background-color:indianred ;
+}
+
+.heroes .text{
+    position: relative;
+    top: -3px;
+}
+
+.heroes .badge{
+    display : inline-block;
+    font-size: small;
+    color: beige;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color: darkslategray;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+}
+
+.button {
+    font-family: Courier New, Courier, monospace;
+    background-color: darkslategray;
+    border: none;
+    padding: 5px 10px;
+    border-radius:4px;
+    cursor: pointer;
+    cursor:hand;
+}
+
+.button:hover{
+    background-color: indianred;
+}
